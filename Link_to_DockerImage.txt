@@ -8,15 +8,11 @@ How to run this project with Docker:
 3. Build the image: 
    docker build -t ai-scene-app .
 4. Run the container: 
-   docker run -p 5000:5000 ai-scene-app
+   docker run -p 5000:5000 ml-project
 5. Access the app at: http://localhost:5000
 
-After run this project with this command :
-docker run -p 5000:5000 ml-project
 
-local host create ( http://localhost:5000)
-
-Link of docker hub repostary 
+6. Link of docker hub repostary 
 
 https://hub.docker.com/repository/docker/ahmedraza0011/urooj/general
 
