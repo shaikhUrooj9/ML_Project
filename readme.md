@@ -24,6 +24,10 @@ http://127.0.0.1:5000/  # <--- link
 # if you run   docker image then you run these commands 
 # open the docker desktop : 
 docker build -t ai-scene-app .
+docker run -p 5000:5000 ml-project
+http://localhost:5000
+
+docker desktop image repostary :  https://hub.docker.com/repository/docker/ahmedraza0011/urooj/general
 docker run -p 5000:5000 ai-scene-app
 and then link generate 
 http://localhost:5000
