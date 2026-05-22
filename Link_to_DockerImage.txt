@@ -1,0 +1,13 @@
+Project: AI Scene Classifier
+Author: [Your Name]
+Date: May 22, 2026
+
+How to run this project with Docker:
+1. Ensure Docker Desktop is running on your machine.
+2. Navigate to the project folder in your terminal.
+3. Build the image: 
+   docker build -t ai-scene-app .
+4. Run the container: 
+   docker run -p 5000:5000 ai-scene-app
+5. Access the app at: http://localhost:5000
+
